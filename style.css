@@ -13,7 +13,7 @@ h1 {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 25px;
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 4px;
 }
 
@@ -35,4 +35,23 @@ h1 {
     -moz-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
+}
+
+.image-container {
+    margin: 10px 30%;
+}
+
+.image-container img {
+    width:100%;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 20px;
+    }
+    .image-container{
+        margin: 10px;
+    }
 }
